@@ -1,0 +1,121 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t",
+            "name": "New tab"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w",
+            "name": "Command Line"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "profile": "Terminal"
+            }
+        }
+    ],
+    "alwaysOnTop": false,
+    "copyFormatting": "all",
+    "copyOnSelect": false,
+    "defaultProfile": "Terminal",
+    "disableAnimations": true,
+    "focusFollowMouse": true,
+    "launchMode": "maximized",
+    "profiles": 
+    { "list": 
+[
+{
+    // Core::
+    "name":"Terminal",
+    "tabTitle":"Terminal",
+    "icon":"",
+    // Env::Variables::
+    "startingDirectory":"",
+    "commandline":"C:\\Repositories",
+    "guid": "{}",
+    // Personalization::Fonts::
+    "font":
+    {
+        "face":"Jetbrains Mono",
+        "size":10,
+        "wieght":"Semi-Light"
+    },
+    // UI::UX::
+    "padding":15,
+    "scrollbarState":"hidden",
+    "suppressApplicationTitle":true,
+    // Custom::Colours::Backgrounds::
+    "useAcrylic":true,
+    "acrylicOpacity":0.5,
+    "backgroundImage":"",
+    "backgroundImageOpacity":0.4505,
+    "tabColor":"#",
+    "colorScheme":"Nord Theme"
+        }
+    ]
+},
+"schemes":
+[        
+    {
+    "background": "#2E3440",
+    "black": "#3B4252",
+    "blue": "#81A1C1",
+    "brightBlack": "#767676",
+    "brightBlue": "#3B78FF",
+    "brightCyan": "#61D6D6",
+    "brightGreen": "#16C60C",
+    "brightPurple": "#B4009E",
+    "brightRed": "#E74856",
+    "brightWhite": "#F2F2F2",
+    "brightYellow": "#F9F1A5",
+    "cursorColor": "#D8DEE9",
+    "cyan": "#88C0D0",
+    "foreground": "#D8DEE9",
+    "green": "#A3BE8C",
+    "name": "Nord Theme",
+    "purple": "#881798",
+    "red": "#BF616A",
+    "selectionBackground": "#2E3440",
+    "white": "#E5E9F0",
+    "yellow": "#EBCB8B"
+}
+],
+"tabSwitcherMode": "disabled",
+"theme": "dark"
+}

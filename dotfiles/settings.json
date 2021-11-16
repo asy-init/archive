@@ -1,0 +1,205 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t",
+            "name": "New tab"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w",
+            "name": "Command Line"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "profile": "Terminal"
+            }
+        }
+    ],
+    "alwaysOnTop": false,
+    "copyFormatting": "all",
+    "copyOnSelect": false,
+    "defaultProfile": "Terminal",
+    "disableAnimations": true,
+    "focusFollowMouse": true,
+    "launchMode": "maximized",
+    "profiles": 
+    { "list": 
+[
+{
+    // Core::
+    "name":"Terminal",
+    "tabTitle":"Terminal",
+    "icon":"C:\\Repositories\\.wt_workflows\\misc\\Icons\\Custom Icons\\terminal_icon.ico",
+    "guid": "{95fc7641-a806-4436-bef8-af0513be3cd2}",
+    // Env::Variables::
+    "startingDirectory":"C:\\Repositories",
+    "commandline":"cmd.exe /k \"C:\\Repositories\\.workflows\\win_terminal-alias.cmd",
+    // Personalization::Fonts::
+    "font":
+    {
+        "face":"Jetbrains Mono",
+        "size":10,
+        "wieght":"semi-light"
+    },
+    // UI::UX::
+    "padding":"15",
+    "scrollbarState":"hidden",
+    "suppressApplicationTitle":true,
+    // Custom::Colours::Backgrounds::
+    "useAcrylic":true,
+    "acrylicOpacity":0.5,
+    "backgroundImage":"C:\\Repositories\\.wt_workflows\\misc\\Terminal-Wallpapers\\command_wallpper.jpg",
+    "backgroundImageOpacity":0.4505,
+    "tabColor":"#2D4D4B",
+    "colorScheme":"Nord Theme"
+},
+{
+    // Core::
+    "name":"Powershell",
+    "tabTitle":"Powershell",
+    "icon":"C:\\Repositories\\.wt_workflows\\misc\\Icons\\Nord Icons\\Windows\\powershell.ico",
+    "guid": "{c75f255d-0245-445c-881d-c6646f0e2129}",
+    // Env::Variables::
+    "startingDirectory":"C:\\Repositories",
+    "commandline":"powershell.exe",
+    // Personalization::Fonts::
+    "font":
+    {
+        "face":"Jetbrains Mono",
+        "size":10,
+        "wieght":"Semi-Light"
+    },
+    // UI::UX::
+    "padding":15,
+    "scrollbarState":"hidden",
+    "suppressApplicationTitle":true,
+    // Custom::Colours::Backgrounds::
+    "useAcrylic":true,
+    "acrylicOpacity":0.5,
+    "backgroundImage":"C:\\Repositories\\.wt_workflows\\misc\\Terminal-Wallpapers\\powershell_wallpaper.jpg",
+    "backgroundImageOpacity":0.4505,
+    "tabColor":"#376066",
+    "colorScheme":"Nord Theme"
+},
+{
+    // Core::
+    "name":"Bash",
+    "tabTitle":"Bash",
+    "icon":"C:\\Repositories\\.wt_workflows\\misc\\Icons\\Custom Icons\\Icon23.ico",
+    "guid": "{32329cf1-f47e-46a9-a05f-894ecd6e7522}",
+    // Env::Variables::
+    "startingDirectory":"C:\\Repositories",
+    "commandline":"Bash.exe",
+    // Personalization::Fonts::
+    "font":
+    {
+        "face":"Jetbrains Mono",
+        "size":10,
+        "wieght":"Semi-Light"
+    },
+    // UI::UX::
+    "padding":15,
+    "scrollbarState":"hidden",
+    "suppressApplicationTitle":true,
+    // Custom::Colours::Backgrounds::
+    "useAcrylic":true,
+    "acrylicOpacity":0.5,
+    "backgroundImage":"C:\\Repositories\\.wt_workflows\\misc\\Terminal-Wallpapers\\bash_wallpaper.jpg",
+    "backgroundImageOpacity":0.4505,
+    "tabColor":"#4D2D2D",
+    "colorScheme":"Nord Theme"
+},
+{
+    // Core::
+    "name":"Linux",
+    "tabTitle":"Linux",
+    "icon":"C:\\Repositories\\.wt_workflows\\misc\\Icons\\Nord Icons\\Windows\\Terminal.ico",
+    "guid": "{4b8f2010-6852-4a65-a46a-4fc45f362a0f}",
+    // Env::Variables::
+    "startingDirectory":"C:\\Repositories",
+    "commandline":"ubuntu.exe",
+    // Personalization::Fonts::
+    "font":
+    {
+        "face":"Jetbrains Mono",
+        "size":10,
+        "wieght":"Semi-Light"
+    },
+    // UI::UX::
+    "padding":15,
+    "scrollbarState":"hidden",
+    "suppressApplicationTitle":true,
+    // Custom::Colours::Backgrounds::
+    "useAcrylic":true,
+    "acrylicOpacity":0.5,
+    "backgroundImage":"C:\\Repositories\\.wt_workflows\\misc\\Terminal-Wallpapers\\linux_wallpaper.jpg",
+    "backgroundImageOpacity":0.4505,
+    "tabColor":"#5C3A3B",
+    "colorScheme":"Nord Theme"
+            }
+        ]
+    },
+    "schemes":
+    [        
+        {
+        "background": "#2E3440",
+        "black": "#3B4252",
+        "blue": "#81A1C1",
+        "brightBlack": "#767676",
+        "brightBlue": "#3B78FF",
+        "brightCyan": "#61D6D6",
+        "brightGreen": "#16C60C",
+        "brightPurple": "#B4009E",
+        "brightRed": "#E74856",
+        "brightWhite": "#F2F2F2",
+        "brightYellow": "#F9F1A5",
+        "cursorColor": "#D8DEE9",
+        "cyan": "#88C0D0",
+        "foreground": "#D8DEE9",
+        "green": "#A3BE8C",
+        "name": "Nord Theme",
+        "purple": "#881798",
+        "red": "#BF616A",
+        "selectionBackground": "#2E3440",
+        "white": "#E5E9F0",
+        "yellow": "#EBCB8B"
+    }
+],
+"tabSwitcherMode": "disabled",
+"theme": "dark"
+}

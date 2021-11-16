@@ -1,0 +1,6 @@
+  {
+  "token": "<Token here>",
+  "prefix": "a!",
+ "owner_id": "805412409174654986",
+"mongodb_uri" : "<uri>"
+  }
